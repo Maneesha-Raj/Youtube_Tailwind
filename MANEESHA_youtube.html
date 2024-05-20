@@ -6,23 +6,33 @@
     <title>YoutubeHome</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="w-full">
+<body class="w-full dark:bg-slate-800">
 
-    <div class="flex p-8">
+    <div class="flex p-4">
         <div class="flex-none w-14 ...">
-            <img src="images/menu.png" class="w-5 h-5 mt-2 ml-6">
+            <img src="images/menu.png" class="w-5 h-5 mt-2 ml-4">
         </div>
         <div class="flex-none w-15 ...">
-            <img src="images/Logo.svg.png" class="w-20 h-10">
+            <img src="images/Logo.svg.png" class="w-20 h-8">
         </div>
-        <div class="flex-none ...">
+        <div class="flex-none h-8">
             <div class="inline-flex gap-4">
-            <div class="inline-flex border-2 rounded-full ml-20 m-auto  p-2 w-10/12">
-                <input type="text" class="ml-40 "  >
-                <img src="images/search.jpeg" class="w-8 ">
+            <div class="inline-flex gap-4 border-2 rounded-full ml-20 m-auto  p-2 w-10/12">
+                <input type="text" placeholder="Search" class="ml-30 w-96 h-4 rounded-full p-1"  >
+                <img src="images/search.png" class="w-4 h-4 mr-4 ">
             </div>
-            <img src="images/mic.png" class="w-8 h-8 border-2 rounded-full mt-2">
-            <img src="images/dots.png" class="w-7 h-5  rounded-full ml-40 mt-2">
+            <img src="images/mic.png" class="w-8 h-8 bg-slate-200 border-2 rounded-full mt-1 p-1">
+            
+            <div class="inline-flex gap-4 ml-20 m-auto w-10/12 ">
+            <img src="images/dots.png" class="w-5 h-5 ml-40 mt-2">
+            <div class="inline-flex gap-2 border-2 border-slate-200 rounded-full  m-auto p-2 w-28 h-10">
+                
+                <img src="images/user-profile (1).png" class="w-8 h-6 ">
+                <p class="ml-30 w-15 rounded-full text-sky-500 text-sm font-semibold">Sign In</p>
+            </div>
+            </div>
+           
+
         </div> 
         </div>
     </div>
@@ -31,27 +41,29 @@
     
 
 
-    <div class="flex gap-4 p-2 space-x ml-3">
+    <div class="flex gap-3 p-2 space-x ml-2">
    <!-- <div class="grid grid-cols-18 gap-4"> -->
           
-    <div>
-        <img src="images/house-black-silhouette-without-door.png" class="w-6 h-6 hover:bg-slate-200">
+    <div class="h-5 w-20">
+        <img src="images/house-black-silhouette-without-door.png" class="w-6 h-6 ml-1 hover:bg-slate-200">
+        <p class="text-xs text-justify mt-2">Home</p>
     </div>
+    
 
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">All</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Trailers</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Movie musicals</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Wealth</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Pop Music</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Music</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Thoughts</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">News</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Motivation</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">India national cricket team</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Dramedy</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Gaming</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Live</div>
-        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:opacity-30">Gadgets</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">All</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Trailers</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Movie musicals</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Wealth</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Pop Music</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Music</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Thoughts</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">News</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Motivation</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">India national cricket team</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Dramedy</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Gaming</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Live</div>
+        <div class="border rounded-md p-1 text-sm text-center bg-slate-200 hover:bg-black hover:text-white">Gadgets</div>
        <!--<div class="grid grid-cols-subgrid gap-4 col-span-  bg-slate-200">
             <div class="col-start-2">06</div>
           </div> --> 
@@ -62,22 +74,26 @@
         </div>
     </div> 
 <div class="flex">
-<div class="w-20 p-3 ml-1">
-<div class="grid grid-rows-4 gap-8">
-    <div>
-        <img src="images/shorts.png" class="w-8 h-8 ml-2 hover:bg-slate-200">
+<div class="w-20 p-3">
+<div class="grid grid-rows-4 gap-4 mt-4">
+    <div class=" grid grid-rows-2 p-1 w-8 ">
+        <img src="images/shorts.png" class="w-8 h-8 ml-3 hover:bg-slate-200">
+        <p class="text-xs text-center ml-2">Shorts</p>
     </div>
 
-    <div>
-        <img src="images/subscription.png" class="w-6 h-6 ml-2 hover:bg-slate-200">
+    <div class="grid grid-rows-2 p-1 w-8 ">
+        <img src="images/subscription.png" class="w-6 h-6 ml-4 hover:bg-slate-200">
+        <p class="text-xs text-left">Subscriptions</p>
     </div>
 
-    <div>
-        <img src="images/library.png" class="w-6 h-6 ml-2 hover:bg-slate-200">
+    <div class="grid grid-rows-2 p-1 w-8">
+        <img src="images/library.png" class="w-6 h-6 ml-4 hover:bg-slate-200">
+        <p class="text-xs text-center ml-4">You</p>
     </div>
 
-    <div>
-        <img src="images/history.png" class="w-6 h-6 ml-2 hover:bg-slate-200">
+    <div class="grid grid-rows-2 p-1 w-8">
+        <img src="images/history.png" class="w-6 h-6 ml-4 hover:bg-slate-200">
+        <p class="text-xs text-center ml-2">History</p>
     </div>
 </div>
 </div>
@@ -85,36 +101,59 @@
 
 <div class="grid grid-rows-2 grid-cols-3 gap-4 p-4">    
     <div>
-        <img src="images/1.png" class="">
+        <img src="images/1.png" class="rounded-md">
     </div>
 
     <div>
-        <img src="images/2.png" class="">
+        <img src="images/2.png" class="rounded-md">
     </div>
 
     <div>
-        <img src="images/3.png" class="">
+        <img src="images/3.png" class="rounded-md">
     </div>
 
     <div>
-        <img src="images/4.png" class="">
+        <img src="images/4.png" class="rounded-md">
     </div>
 
     <div>
-        <img src="images/5.png" class="">
+        <img src="images/5.png" class="rounded-md">
     </div>
 
     <div>
-        <img src="images/6.png" class="">
+        <img src="images/6.png" class="rounded-md">
+    </div>
+
+    <div>
+        <iframe class="w-full rounded-md aspect-video" src="https://www.youtube.com/embed/edIctUyd4RQ"></iframe>
+        <div class="mt-4">
+            <p class="text-base font-semibold">WATCH THIS EVERYDAY AND CHANGE YOUR LIFE</p>
+            <p class="font-sans text-sm text-gray-600">Motivation Mentors</p>
+            <p class="font-sans text-sm  text-gray-600">635K views<span class="text-2xl text-center"> . </span>11 months ago</p>
+          </div>
+    </div>
+    <div>
+        <iframe class="w-full rounded-md aspect-video" src="https://www.youtube.com/embed/KK8FHdFluOQ"></iframe>
+        <div class="mt-4">
+            <p class="text-base font-semibold">Disney-Pixar "PIPER"-Cute Motivational short movie</p>
+            <p class="font-sans text-sm text-gray-600">Walt Disney Studios</p>
+            <p class="font-sans text-sm  text-gray-600">27M views<span class="text-2xl text-center"> . </span>4 years ago</p>
+          </div>
+    </div>
+    <div>
+        <iframe class="w-full rounded-md aspect-video" src="https://www.youtube.com/embed/1P3ZgLOy-w8"></iframe>
+        <div class="mt-4">
+            <p class="text-base font-semibold">HOPE (2020)</p>
+            <p class="font-sans text-sm text-gray-600">GreenTree Production</p>
+            <p class="font-sans text-sm  text-gray-600">30M views <span class="text-2xl text-center"> . </span>1 year ago</p>
+          </div>
     </div>
 
 </div>    
 
 </div>
 
-    <div>
-        <img src="" class="">
-    </div>
+    
 
     <div>
         <img src="" class="">
